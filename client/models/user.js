@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('hapi-auth')
+  angular.module('hackjack')
     .factory('User', ['$rootScope', '$http', function($rootScope, $http){
 
       $rootScope.$watch('rootuser', function(user){

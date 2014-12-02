@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('hapi-auth')
+  angular.module('hackjack')
     .factory('Game', ['$rootScope', '$http', function($rootScope, $http){
       function readyNewGame(roomId){
         return $http.get('/rooms/' + roomId + '/readyNewGame');

@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('hapi-auth')
+  angular.module('hackjack')
     .controller('RoomsDetailCtrl', ['$rootScope', '$scope', '$state', 'Room', 'Game', function($rootScope, $scope, $state, Room, Game){
       $scope.messages = [];
       $scope.players = {};
